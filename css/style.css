@@ -139,6 +139,12 @@ img {
   background: var(--black-back);
   text-align: center;
   padding: 200px 0px;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../img/Img-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 .main-text {
@@ -256,7 +262,7 @@ img {
 }
 .masters {
   background: #ffffff;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
 
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -275,6 +281,28 @@ img {
   margin-bottom: 0px;
   margin-top: 30px;
   padding: 0px;
+}
+.masters-soc-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 16px;
+  padding-left: 0;
+}
+.masters-soc-item + .masters-soc-item {
+  margin-left: 10px;
+}
+.masters-soc-link {
+  width: 44px;
+  height: 44px;
+  background-color: brown;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.masters-soc-icon {
+  fill: #ffffff;
 }
 
 /*-----FOOTER-----*/
