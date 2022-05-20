@@ -47,8 +47,11 @@ img {
 .header-contact {
   display: flex;
   margin: 0px 0px 0px auto;
-
+  align-items: center;
   padding-left: 0px;
+}
+.header-block {
+  display: block;
 }
 
 .header-logo-text {
@@ -105,14 +108,14 @@ img {
 .header-conect {
   margin-left: auto;
 }
-.header-icon {
-  justify-content: center;
-  fill: #757575;
-}
+
 .header-mail {
+  font-family: 'Roboto';
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 16px;
+  letter-spacing: 0.02em;
   color: var(--grey-color);
   display: block;
   padding-top: 32px;
@@ -120,9 +123,12 @@ img {
 }
 
 .header-tel {
+  font-family: 'Roboto';
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 16px;
+  letter-spacing: 0.02em;
   color: var(--grey-color);
   display: block;
   padding-top: 32px;
