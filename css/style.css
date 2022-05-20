@@ -295,16 +295,28 @@ img {
 .masters-soc-link {
   width: 44px;
   height: 44px;
-  background-color: brown;
+  background-color: var(--white-color);
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .masters-soc-icon {
-  fill: #ffffff;
+  fill: #afb1b8;
 }
 
+.masters-soc-link:hover .masters-soc-icon {
+  fill: #ffffff;
+}
+.masters-soc-link:hover {
+  width: 44px;
+  height: 44px;
+  background-color: var(--blue-color);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /*-----FOOTER-----*/
 
 .footer-list {
