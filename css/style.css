@@ -317,6 +317,14 @@ img {
   justify-content: center;
   align-items: center;
 }
+/*-----CLIENTS----*/
+.clients-section {
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+.clients-list {
+  display: flex;
+}
 /*-----FOOTER-----*/
 
 .footer-list {
