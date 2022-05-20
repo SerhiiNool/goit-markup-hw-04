@@ -324,6 +324,10 @@ img {
 }
 .clients-list {
   display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 16px;
+  padding-left: 0;
 }
 /*-----FOOTER-----*/
 
