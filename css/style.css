@@ -50,8 +50,18 @@ img {
   align-items: center;
   padding-left: 0px;
 }
+.icon-tel,
+.icon-mail {
+  fill: var(--grey-color);
+  margin-right: 10px;
+}
 .header-block {
-  display: block;
+  display: flex;
+}
+.header-tel-link,
+.header-mail-link {
+  display: flex;
+  align-items: center;
 }
 
 .header-logo-text {
@@ -143,6 +153,13 @@ img {
 .header-mail:focus {
   color: var(--blue-color);
 }
+.header-mail-link:hover .icon-mail {
+  fill: #2196f3;
+}
+.header-tel-link:hover .icon-tel {
+  fill: #2196f3;
+}
+
 /*----------MAIN---------*/
 
 .main-text-section {
