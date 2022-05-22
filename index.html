@@ -38,25 +38,22 @@
             <li class="header-item"><a class="header-link link" href="">Контакты</a></li>
           </ul>
         </nav>
-
         <ul class="header-contact list">
           <li class="header-block header-li">
-            <div class="header-mail-link">
-              <svg class="icon-mail" width="16" height="12">
+            <a class="header-mail link" href="mailto:info@devstudio.com"
+              ><svg class="icon-mail" width="16" height="12">
                 <use href="./img/icon.svg#icon-envelope"></use>
               </svg>
-
-              <a class="header-mail link" href="mailto:info@devstudio.com"> info@devstudio.com</a>
-            </div>
+              info@devstudio.com</a
+            >
           </li>
           <li class="header-block">
-            <div class="header-tel-link">
-              <svg class="icon-tel" width="10" height="16">
+            <a class="header-tel link" href="tel:+38096111111"
+              ><svg class="icon-tel" width="10" height="16">
                 <use href="./img/icon.svg#icon-smartphone"></use>
               </svg>
-
-              <a class="header-tel link" href="tel:+38096111111"> +38 096 111 11 11 </a>
-            </div>
+              +38 096 111 11 11
+            </a>
           </li>
         </ul>
       </div>
@@ -162,7 +159,13 @@
           <h2 class="side-text">Наша команда</h2>
           <ul class="masters-flex list">
             <li class="masters">
-              <img src="./img/img.jpg" alt="Дизайнер" display="block" width="100%" height="auto" />
+              <img
+                src="./img/img.jpg"
+                alt="Дизайнер"
+                display="block"
+                max-width="100%"
+                height="auto"
+              />
               <h3 class="name">Игорь Демченко</h3>
               <p lang="en" class="prof">Product Designer</p>
               <ul class="masters-soc-list list">
@@ -202,7 +205,7 @@
                 src="./img/img-2.jpg"
                 alt="Разработчик"
                 display="block"
-                width="100%"
+                max-width="100%"
                 height="auto"
               />
               <h3 class="name">Ольга Репина</h3>
@@ -243,7 +246,7 @@
                 src="./img/img-1.jpg"
                 alt="Маркетолог"
                 display="block"
-                width="100%"
+                max-width="100%"
                 height="auto"
               />
               <h3 class="name">Николай Тарасов</h3>
@@ -284,7 +287,7 @@
                 src="./img/img-3.jpg"
                 alt="Дизайнер"
                 display="block"
-                width="100%"
+                max-width="100%"
                 height="auto"
               />
               <h3 class="name">Михаил Ермаков</h3>
@@ -323,7 +326,7 @@
           </ul>
         </div>
       </section>
-      <section class="clients-section">
+      <section>
         <div class="container">
           <h2 class="clients-text">Постоянные клиенты</h2>
           <ul class="clients-list list">
@@ -403,7 +406,7 @@
           </address>
         </div>
         <div class="footer-click">
-          <h3 class="comeback">присоединяйтесь</h3>
+          <strong class="comeback">присоединяйтесь</strong>
           <ul class="footer-soc-list list">
             <li class="footer-soc-item">
               <a href="" class="footer-soc-link">

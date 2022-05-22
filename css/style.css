@@ -46,7 +46,7 @@ img {
 
 .header-contact {
   display: flex;
-  margin: 0px 0px 0px auto;
+  margin: 0 0 0 auto;
   align-items: center;
   padding-left: 0px;
 }
@@ -56,10 +56,6 @@ img {
   margin-right: 10px;
 }
 .header-block {
-  display: flex;
-}
-.header-tel-link,
-.header-mail-link {
   display: flex;
   align-items: center;
 }
@@ -153,10 +149,16 @@ img {
 .header-mail:focus {
   color: var(--blue-color);
 }
-.header-mail-link:hover .icon-mail {
+.header-mail:hover .icon-mail {
   fill: #2196f3;
 }
-.header-tel-link:hover .icon-tel {
+.header-mail:focus .icon-mail {
+  fill: #2196f3;
+}
+.header-tel:hover .icon-tel {
+  fill: #2196f3;
+}
+.header-tel:focus .icon-tel {
   fill: #2196f3;
 }
 
@@ -214,6 +216,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 30px;
 }
 .about-svg-icon {
   fill: #afb1b8;
@@ -225,6 +228,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--black-text);
+  margin: 0 0 10px 0;
 }
 .about-list {
   display: flex;
@@ -258,7 +262,7 @@ img {
 .work-flex {
   display: flex;
   padding: 0px 0px;
-  margin: 0px auto;
+  margin: 0px;
 }
 .work-section {
   padding-bottom: 94px;
@@ -292,9 +296,8 @@ img {
 }
 .masters-flex {
   display: flex;
-  margin-top: 0px;
-  margin-bottom: 0px;
   padding: 0px;
+  margin: 0px;
 }
 .masters {
   background: #ffffff;
@@ -359,19 +362,13 @@ img {
   align-items: center;
 }
 /*-----CLIENTS----*/
-.clients-section {
-  background-color: #e5e5e5;
-  margin: 0 auto;
-}
 
 .clients-text {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  margin: 0;
-  padding-bottom: 50px;
-  padding-top: 94px;
+  margin: 94px 0 50px 0;
 }
 
 .clients-list {
@@ -379,9 +376,8 @@ img {
   justify-content: center;
   padding-top: 0px;
   padding-bottom: 0px;
-  margin: 0;
-  padding-bottom: 94px;
-  padding-left: 0;
+  margin: 0 0 94px 0;
+  padding: 0px;
 }
 .clients-icon {
   fill: #afb1b8;
@@ -458,12 +454,12 @@ img {
 .footer-down {
   background: var(--black-back);
   padding: 50px 0px;
-  width: auto;
   align-items: center;
   margin-left: auto;
 }
 .footer-down .container {
   display: flex;
+  align-content: center;
 }
 
 .footer_style {
@@ -477,8 +473,7 @@ img {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin: 10px 0 0 0;
-
+  margin: 0 0 10px 0;
   color: #ffffff;
 }
 .footer-click {
